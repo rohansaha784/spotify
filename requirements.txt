@@ -4,3 +4,5 @@ scikit-learn
 matplotlib
 nltk
 sqlite3
+re
+numpy
