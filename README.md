@@ -44,21 +44,21 @@ This project demonstrates a personalized song recommendation system using Spotif
    - Execute the cells in the notebook to:
      - Authenticate with Spotify.
      - Fetch your top songs and their audio features.
-   - The notebook will save a CSV file (e.g., `data/Varun-Filtered.csv`) containing the fetched data.
+   - The notebook will save a CSV file (i.e., `data/Varun-Filtered.csv`) containing the fetched data.
 
 ---
 
 ### Step 2: Run Predictions using `main.ipynb`
 
 1. **Setup**:
-   - Ensure the CSV file generated from `spotify-data.ipynb` is available in the `data` folder.
+   - Make sure that the CSV file generated from `spotify-data.ipynb` is available in the `data` folder.
    - Open the `main.ipynb` notebook.
 
 2. **Run the Notebook**:
    - Execute all cells in the `main.ipynb` notebook.
    - The notebook will:
      - Load the song dataset into an SQLite database.
-     - Use user input (e.g., song descriptions) to predict audio features.
+     - Use user input (i.e., song descriptions) to predict audio features.
      - Return a list of 5 songs that closely match the input.
 
 3. **Input Example**:
